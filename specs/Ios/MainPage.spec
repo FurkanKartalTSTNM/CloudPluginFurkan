@@ -138,3 +138,49 @@ BasicIOS
 tags:Basic_IOS
 *Uygulama baslatilir
 * "markalarSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesi" li element varsa tıkla
+
+Success01
+-----
+tags:Success01
+*Uygulama baslatilir
+* "markalarSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+
+Success02
+-----
+tags:Success02
+*Uygulama baslatilir
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesi" li element varsa tıkla
+
+Success03
+-----
+tags:Success03
+*Uygulama baslatilir
+* "markalarSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesi" li element varsa tıkla
+* "2" saniye bekle
+
+Success04
+-----
+tags:Success04
+*Uygulama baslatilir
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesi" li element varsa tıkla
+
+Success05
+-----
+tags:Success05
+*Uygulama baslatilir
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesi" li element varsa tıkla
