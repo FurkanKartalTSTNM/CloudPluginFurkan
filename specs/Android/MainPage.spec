@@ -144,3 +144,54 @@ tags:AndroidBasicTest
 * "kategorilerTab" li element varsa tıkla
 * "2" saniye bekle
 * "kampanyalarTab" li element varsa tıkla
+
+AndroidBasicTest01
+--------
+tags:AndroidBasicTest01
+* Uygulama baslatilir
+* "markalarTab" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerTab" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarTab" li element varsa tıkla
+
+AndroidBasicTest02
+--------
+tags:AndroidBasicTest02
+* Uygulama baslatilir
+* "markalarTab" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerTab" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarTab" li element varsa tıkla
+
+AndroidBasicTest03
+--------
+tags:AndroidBasicTest03
+* Uygulama baslatilir
+* "markalarTab" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerTab" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarTab" li element varsa tıkla
+
+AndroidBasicTest04
+--------
+tags:AndroidBasicTest04
+* Uygulama baslatilir
+* "markalarTab" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerTab" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarTab" li element varsa tıkla
+
+
+AndroidBasicTestFail
+--------
+tags:AndroidBasicTestFail
+* Uygulama baslatilir
+* "markalarTab" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerTab" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarTabbbbb" li element varsa tıkla

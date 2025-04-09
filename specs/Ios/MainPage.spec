@@ -384,3 +384,13 @@ tags:Success30
 * "kampanyalarSekmesi" li element varsa tıkla
 * "2" saniye bekle
 * "kategorilerSekmesi" li element varsa tıkla
+
+BasicIOSFail
+-----
+tags:Basic_IOSFail
+*Uygulama baslatilir
+* "markalarSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kategorilerSekmesi" li element varsa tıkla
+* "2" saniye bekle
+* "kampanyalarSekmesilllllll" li element varsa tıkla
