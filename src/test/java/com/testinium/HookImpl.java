@@ -136,7 +136,6 @@ public class HookImpl {
 
                 capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
                 capabilities.setCapability("usePrebuiltWDA", true); //changed
-                capabilities.setCapability("key", System.getenv("key"));
                 capabilities.setCapability("waitForAppScript", "$.delay(1000);");
                 capabilities.setCapability("bundleId", "com.pharos.Gratis");
                 //capabilities.setCapability("bundleId", "com.pharos.gratis.uat");
