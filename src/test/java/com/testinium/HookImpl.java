@@ -103,6 +103,8 @@ public class HookImpl {
             System.out.println("platform" + System.getenv("platform"));
             System.out.println("version" + System.getenv("version"));
             System.out.println("version" + System.getenv("browserName"));
+            capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
+            capabilities.setCapability("testinium:testID", System.getenv("testID"));
 
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
