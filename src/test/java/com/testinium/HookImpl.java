@@ -95,7 +95,7 @@ public class HookImpl {
             }
         } else {
             //String hubURL = "http://host.docker.internal:4444/wd/hub";
-            String hubURL = "http://hub.testinium.io/wd/hub";
+            String hubURL = "http://hub-devcluster.testinium.io:4444/wd/hub";
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("key", "mehmetaksahin:c73e55a008a9555f57586d8fe6122408");
             System.out.println("key:" + key);
