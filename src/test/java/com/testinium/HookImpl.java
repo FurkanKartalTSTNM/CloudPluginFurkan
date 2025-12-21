@@ -104,6 +104,8 @@ public class HookImpl {
             System.out.println("version" + System.getenv("browserName"));
             capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
             capabilities.setCapability("testinium:testID", System.getenv("testID"));
+            capabilities.setCapability("testinium:takesScreenshot,", false);
+
 
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
@@ -125,7 +127,6 @@ public class HookImpl {
                 capabilities.setCapability("appium:[skipDeviceInitialization]",true);
                 capabilities.setCapability("appium:[skipServerInstallation]",true);
                 capabilities.setCapability("appium:[ignoreUnimportantViews]",true);
-                capabilities.setCapability("testinium:takesScreenshot,", true);
 
                 appiumDriver = new AndroidDriver(new URL(hubURL), capabilities);
                 localAndroid = true;
@@ -144,7 +145,6 @@ public class HookImpl {
                 capabilities.setCapability("usePrebuiltWDA",true);
                 capabilities.setCapability("useNewWDA", false);
                 capabilities.setCapability("autoAcceptAlerts",true);
-                capabilities.setCapability("testinium:takesScreenshot,", true);
                 //capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5);
                 appiumDriver = new IOSDriver(new URL(hubURL), capabilities);
             }
