@@ -37,7 +37,7 @@ public class HookImpl {
     protected boolean localAndroid=true;
     public static boolean isDeviceAnd=true;
     protected static Selector selector ;
-    String key = "mehmetaksahin:1882cf542fc47337cc15bd24e3088fec";
+    String key = "qa63:a0c767b1e729c52c077f842a0363322a";
 
 
     @BeforeScenario
@@ -97,7 +97,7 @@ public class HookImpl {
             //String hubURL = "http://host.docker.internal:4444/wd/hub";
             String hubURL = "http://hub-devcluster.testinium.io:4444/wd/hub";
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("key", "mehmetaksahin:1882cf542fc47337cc15bd24e3088fec");
+            capabilities.setCapability("key", "qa63:a0c767b1e729c52c077f842a0363322a");
             System.out.println("key:" + key);
             System.out.println("platform" + System.getenv("platform"));
             System.out.println("version" + System.getenv("version"));
