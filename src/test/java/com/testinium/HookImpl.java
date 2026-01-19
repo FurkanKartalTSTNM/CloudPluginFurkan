@@ -125,7 +125,7 @@ public class HookImpl {
                 capabilities.setCapability("appium:[skipDeviceInitialization]",true);
                 capabilities.setCapability("appium:[skipServerInstallation]",true);
                 capabilities.setCapability("appium:[ignoreUnimportantViews]",true);
-                capabilities.setCapability("testinium:takesScreenshot,", true);
+                capabilities.setCapability("testinium:takesScreenshot", true);
 
                 appiumDriver = new AndroidDriver(new URL(hubURL), capabilities);
                 localAndroid = true;
